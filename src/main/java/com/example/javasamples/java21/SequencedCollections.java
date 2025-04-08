@@ -16,7 +16,7 @@ public class SequencedCollections {
      * Demonstrates SequencedCollection methods with ArrayList
      */
     public SequencedCollection<String> demonstrateSequencedList() {
-        var list = new ArrayList<String>();
+        var list = new LinkedList<String>();
         list.addFirst("First");
         list.addLast("Last");
         list.add("Middle");
