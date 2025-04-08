@@ -32,7 +32,7 @@ public class SequencedCollections {
         set.addFirst(1);
         set.add(2);
         set.addLast(3);
-        return set;
+        return (SequencedSet<Integer>) set;
     }
     
     /**
