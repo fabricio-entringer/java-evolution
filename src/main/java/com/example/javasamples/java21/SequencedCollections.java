@@ -28,7 +28,7 @@ public class SequencedCollections {
      * Demonstrates SequencedSet methods with LinkedHashSet
      */
     public SequencedSet<Integer> demonstrateSequencedSet() {
-        var set = new LinkedHashSet<Integer>();
+        var set = new LinkedList<Integer>();
         set.addFirst(1);
         set.add(2);
         set.addLast(3);
