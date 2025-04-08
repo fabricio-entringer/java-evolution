@@ -17,10 +17,9 @@ public class SequencedCollections {
      */
     public SequencedCollection<String> demonstrateSequencedList() {
         var list = new LinkedList<String>();
-        list.addFirst("First");
-        list.addLast("Last");
-        list.add("Middle");
-        
+        list.add(0, "First");
+        list.add("Last");
+        list.add(1, "Middle");
         // Returns a reversed view of the list
         return list.reversed();
     }
