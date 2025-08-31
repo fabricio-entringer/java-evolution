@@ -1,6 +1,6 @@
 # 🚀 Java Evolution Playground 🚀
 
-Welcome to the **Java Evolution** repository, your one-stop shop for exploring the coolest features from Java 11 through 17! This isn't your grandfather's Java... this is Java on ☕ steroids!
+Welcome to the **Java Evolution** repository, your one-stop shop for exploring the coolest features from Java 11 through 21! This isn't your grandfather's Java... this is Java on ☕ steroids!
 
 ## 🌟 What's Inside?
 
@@ -24,6 +24,21 @@ This repo is like a time machine through Java's evolution, showing off the shini
 
 ### Java 17 Final Boss 👑
 - **Sealed Classes** - Control your class hierarchy like a benevolent dictator. "You may extend me, you may not. I have spoken."
+
+### Java 18-20 Power-Ups 💪
+- **Pattern Matching for Switch** - Switch expressions that can match on patterns? The future is now!
+- **Record Patterns** - Destructure your records with style
+- **Virtual Threads (Preview)** - Lightweight threads for the win!
+
+### Java 21 Ultimate Evolution 🌟
+- **String Templates** - Interpolate strings like a boss
+- **Virtual Threads** - Finally standardized! Millions of threads? No problem!
+- **Record Patterns** - Pattern matching with records is now standard
+- **Pattern Matching for Switch** - The final form of switch expressions
+- **Sequenced Collections** - First, last, and everything in between
+- **Structured Concurrency** - Better management of multiple concurrent tasks
+- **Scoped Values** - Thread-local state management for the modern era
+- **Foreign Memory API** - Safe, efficient access to memory outside the Java heap
 
 ## 🛠️ Getting Started
 
@@ -59,14 +74,27 @@ java-evolution/
 │   │   ├── java14/
 │   │   │   ├── RecordsExample.java      - Immutable data carriers
 │   │   │   └── SwitchExpressions.java   - Enhanced switch syntax
-│   │   └── java17/
-│   │       └── SealedClasses.java       - Restricted class hierarchies
+│   │   ├── java19/
+│   │   │   └── VirtualThreads.java      - Preview of virtual threads
+│   │   └── java21/
+│   │       ├── SequencedCollections.java - First/last collection operations
+│   │       ├── ScopedValues.java        - Thread-local state management
+│   │       └── ... (other Java 21 features)
 │   └── test/java/com/example/javasamples/
 │       ├── java11/
-│       │   └── StringMethodsTest.java   - Tests for Java 11 features
-│       └── java14/
-│           └── RecordsExampleTest.java  - Tests for Java 14 records
-└── pom.xml                              - Maven configuration
+│       │   └── StringMethodsTest.java    - Tests for Java 11 features
+│       ├── java14/
+│       │   └── RecordsExampleTest.java   - Tests for Java 14 features
+│       ├── java19/
+│       │   └── VirtualThreadsTest.java   - Tests for virtual threads
+│       └── java21/
+│           ├── ForeignMemoryAPITest.java  - Tests for Foreign Memory API
+│           ├── RecordPatternsTest.java    - Tests for Record Patterns
+│           ├── ScopedValuesTest.java      - Tests for Scoped Values
+│           ├── SequencedCollectionsTest.java - Tests for Sequenced Collections
+│           ├── StringTemplatesTest.java    - Tests for String Templates
+│           └── StructuredConcurrencyTest.java - Tests for Structured Concurrency
+└── pom.xml                                - Maven configuration
 ```
 
 ## 🧪 Testing
